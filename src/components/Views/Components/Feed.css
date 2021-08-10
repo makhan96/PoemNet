@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.feed__posts {
+  margin-top: 24px;
+  align-self: center;
+}
+
+.feed {
+  background-color: rgb(128, 83, 138);
+  display: flex;
+  justify-content: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.chat {
+  text-align: right;
+  padding-right: 10px;
+  color: #c6b1df;
+  font-weight: bold;
+}
+
+.chat1 {
+  background-color: #8d5abd;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 10px 15px !important;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 15px !important;
+  text-decoration: none !important;
+  margin-right: 10px;
+}
+.chat1:hover {
+  opacity: 0.7 !important;
+  color: white !important;
+}
+
+.poem-api {
+  padding-right: 10px;
+}
+

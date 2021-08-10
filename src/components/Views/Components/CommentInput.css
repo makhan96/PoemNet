@@ -1,0 +1,37 @@
+.commentInput {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 12px;
+  /*box-shadow: 1px 1px 10px rgb(230, 230, 230); */
+  border-radius: 12px;
+}
+
+.commentInput__text {
+  flex: 1;
+}
+.commentInput__button {
+  margin-left: 24px;
+}
+
+.commentInput__textarea {
+  border-radius: 20px;
+  background-color: rgb(245, 245, 245);
+  border: none;
+  width: 100%;
+  font-size: 15px;
+  padding: 0.5rem 0rem 0.5rem 1rem;
+  resize: none;
+  transition: 0.4s ;
+}
+
+.commentInput__textarea:focus {
+  border: 2px solid rgb(202, 221, 255);
+}
+
+.commentInput__textarea {
+  border: none;
+}
+
+.commentInput__textarea:focus {
+  outline: none;
+}

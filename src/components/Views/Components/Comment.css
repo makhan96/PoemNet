@@ -1,0 +1,11 @@
+.comment {
+  padding: 5px 12px;
+  /* margin: 0.8rem 0rem; */
+}
+.comment p {
+  font-size: 0.9rem;
+}
+
+.comment:nth-child(even) {
+  background: linear-gradient(49deg, rgba(51, 88, 253, 0.1) 0%, rgba(58, 123, 244, 0.1) 100%);
+}

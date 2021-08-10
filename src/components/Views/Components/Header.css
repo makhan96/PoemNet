@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.header {
+  background-color: #585481;
+  padding: 0px 20px; 
+  height: 72px;
+  /* border-bottom: 1px solid #B0E2FB; */
+  /* object-fit: contain; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+}
+
+.header > img {
+  background-color: #fff;
+  height: 35px;
+}
+
+.header__Right {
+  display: flex;
+}
+
+.header__RightProfileImg {
+  background-color: #fff;
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+}
+
+.MuiAvatar-colorDefault {
+  color:rgb(213, 100, 241) !important;
+  background-color: rgb(224, 213, 241) !important;
+}
+
+.button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+.button:focus {
+  outline: none;
+}
+
+h1{ 
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  color: rgb(251, 233, 255);
+}
+
+.bold {
+  font-family: 'Josefin Sans', sans-serif;
+  color: rgb(177, 172, 219);
+}
+
+.MuiInput-underline:after {
+  border-bottom: 2px solid rgb(185, 70, 252) !important;
+}

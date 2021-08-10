@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.poem-btn {
+  color: #f8ddff;
+  background-color: #57388f;
+  border: 1px solid #2a3ef500;
+  border-radius: 5px;
+  padding: 0px 12px;
+  cursor: pointer;
+  height: 32px;
+  font-size: 16px;
+  transition: all 0.2s ease-in-out;
+}
+/* .poem-btn:hover {
+  box-shadow: 1px 1px #53a7ea, 2px 2px #53a7ea, 3px 3px #53a7ea;
+  transform: translateX(-3px);
+} */
+
+.potd {
+  padding-left: 20px;
+  font-family: 'Poppins'; 
+  font-size: 26px;
+  color: #ffffff !important;
+}
+
+.potd-span {
+  display: block;
+  color: #ffffff;
+}
+
+.shadow {
+  background: linear-gradient(
+    to right,
+    #8e2de2,
+    #4a00e0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
